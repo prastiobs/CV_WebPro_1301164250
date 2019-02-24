@@ -1,0 +1,163 @@
+body {
+	background-image: url("bg.JPG");
+	background-color: #ffffff;
+	font-family: 'Titillium Web', sans-serif;
+	margin: auto;
+	text-align: center;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	background-color: #19222f;
+	color: white;
+	width: 100%;
+	height: 210px;
+	margin-bottom: 50px;
+	display: flex;
+}
+
+.tab {
+	overflow: hidden;
+	background: #a0b3b0;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.tab button {
+	background-color: inherit;
+  	border: none;
+  	outline: none;
+  	cursor: pointer;
+  	padding: 14px 16px;
+  	transition: 0.3s;
+  	font-size: 17px;
+  	color: white;
+  	transition-duration: 1500ms;
+}
+
+.tab button:hover {
+	background-color: #179b77;
+}
+
+.tab button.active {
+  	background-color: #1ab188;
+}
+
+.tabcontent {
+  	display: none;
+ 	height: 550px;
+ 	margin: auto;
+ 	max-width: 1000px;
+	padding: 5px 40px 30px 40px;
+  	border: 1px solid #ccc;
+  	border-top: none;
+  	background-color: #13232f;
+  	color: white;
+  	margin-bottom: 40px;
+  	font-size: 20px;
+  	border: none;
+  	border-radius: 8px;
+  	box-shadow: 2px 2px 2px 2px #375b77;
+  	transition: height 3s;
+  	transition-timing-function: linear;
+}
+
+#Introduction p {
+	text-align: justify;
+}
+
+.ft {
+	width: 180px;
+	margin: 12px 0 10px 300px;
+
+}
+
+.ft img {
+	border-radius: 50%;
+	border: 1px solid #000;
+}
+
+h1 {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.col {
+	width: 50%
+	margin: auto;
+}
+
+.label {
+	font-size: 18px;
+}
+
+.icon {
+	text-align: center;
+}
+
+span {
+	height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    background: white;
+    font-weight: 700;
+    margin: 10px 0 25px 0;
+}
+
+.active {
+	background-color: #179b77;
+}
+
+hr {
+	color: white;
+}
+
+.hd {
+	text-align: left;
+	margin: 40px 0 0 40px;
+}
+
+section {
+	position: relative;
+	top: 300px;
+}
+
+hr {
+	margin-bottom: 30px;
+}
+
+.edu {
+	display: inline-flex;
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+.edu img {
+	margin: 0 100px 0 100px;
+}
+
+.edu p {
+	margin: 30px 0 0 20px;
+}
+
+.logo {
+	display: flex;
+}
+
+.logopic {
+	margin: 17px 0 0 380px;
+	cursor: pointer;
+}
+
+.logopic img {
+	width: 49px;
+	height: 49px;
+}
+
+.logolabel {
+	margin: 10px 0 0 15px;
+}
