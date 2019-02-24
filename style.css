@@ -1,6 +1,4 @@
 body {
-	background-image: url("bg.JPG");
-	background-color: #ffffff;
 	font-family: 'Titillium Web', sans-serif;
 	margin: auto;
 	text-align: center;
@@ -60,8 +58,6 @@ header {
   	border: none;
   	border-radius: 8px;
   	box-shadow: 2px 2px 2px 2px #375b77;
-  	transition: height 3s;
-  	transition-timing-function: linear;
 }
 
 #Introduction p {

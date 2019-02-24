@@ -12,11 +12,3 @@ function openCV(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 
-//$(document).ready(function () {
-//  $('.icon').children('.active').each(function(i) {
-//    var row = $(this);
-//    setTimeout(function() {
-//      row.css('background','red');
-//    }, 100*i);
-//  });
-//});
